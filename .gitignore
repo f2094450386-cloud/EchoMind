@@ -25,6 +25,7 @@ backend/logs/
 # IDE and OS
 .idea/
 .vscode/
+.claude/
 .DS_Store
 Thumbs.db
 __MACOSX/
