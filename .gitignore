@@ -1,0 +1,34 @@
+# Local environment
+.env
+.env.*
+!*.example
+!*.example.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Runtime data
+backend/data/
+backend/logs/
+*.sqlite3
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Backups
+*.bak
+*~
